@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: gray;
+}
+
+h1{
+ background-color: aqua;
+ padding: 10px;
+ font-style: italic;
+ 
+}
+.pad{
+  /* background-color: aqua; */
+  margin: 10px;
+  padding: 12px;
+  height: 100px;
+  width: 100px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#first{
+   background-color: black;
+   color: antiquewhite;
+   border: 5px solid white;
+   border-radius:5px 40px 5px 5px ;
+}
+#second{
+  background-color: aquamarine;
+  border: 3px dashed green;
+  border-radius:40px 5px 5px 5px ;
+
+}
+
+/* Buttons Styling */
+
+.btn{
+  height: 150px;
+  width: 150px;
+  /* display: block; */
+  margin: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 15px;
+  border: none;
+
+}
+#btn1{
+  box-sizing:border-box;
+  background-color: cadetblue;
+}
+#btn2{
+  box-sizing: content-box;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}

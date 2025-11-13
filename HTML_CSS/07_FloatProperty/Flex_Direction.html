@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Direction</title>
+  <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+      
+    }
+    .container1{
+         border: 3px solid gold;
+      height: 250px;
+      width: 600px;
+      display: flex;
+      background-color: cornflowerblue;
+      margin: 20px;
+      padding: 10px;
+      flex-direction: row;
+    }
+    .container{
+      border: 3px solid gold;
+      height: 250px;
+      width: 600px;
+      display: flex;
+      background-color: cornflowerblue;
+      margin: 20px;
+      padding: 10px;
+      flex-direction: row-reverse;
+    }
+    .container2{
+     border: 3px solid gold;
+      height: 650px;
+      width: 300px;
+      display: flex;
+      background-color: cornflowerblue;
+      margin: 20px;
+      padding: 10px;
+      flex-direction:column-reverse;
+
+
+    }
+    .box{
+      background-color: aqua;
+      margin: 10px;
+      height: 100px;
+      width: 50%;;
+      padding: 10px;
+      margin-right: 5px;
+    }
+    h1{
+      background-color: black;
+      color: white;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body style="height: 100%;">
+  <h1>Flex Container</h1>
+
+  <div class="container">
+    <div id="box1" class="box">Flex item 1</div>
+    <div id="box2" class="box">Flex item 2</div>
+    <div id="box3" class="box">Flex item 3</div>
+    <div id="box4" class="box">Flex item 4</div>
+  </div>
+  <h1>Flex-Direction Row</h1>
+   <div class="container1">
+    <div id="box1" class="box">Flex item 1</div>
+    <div id="box2" class="box">Flex item 2</div>
+    <div id="box3" class="box">Flex item 3</div>
+    <div id="box4" class="box">Flex item 4</div>
+  </div>
+
+  <h1>Flex-Direction Columns</h1>
+   <div class="container2">
+    <div id="box1" class="box">Flex item 1</div>
+    <div id="box2" class="box">Flex item 2</div>
+    <div id="box3" class="box">Flex item 3</div>
+    <div id="box4" class="box">Flex item 4</div>
+  </div>
+</body>
+</html>
